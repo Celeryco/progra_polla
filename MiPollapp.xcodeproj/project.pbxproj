@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		005FBC9D20C8F6A0009FB3D4 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005FBC9C20C8F6A0009FB3D4 /* TabBarController.swift */; };
+		005FBC9F20C90153009FB3D4 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005FBC9E20C90153009FB3D4 /* Player.swift */; };
+		005FBCA120C90161009FB3D4 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005FBCA020C90161009FB3D4 /* Team.swift */; };
+		005FBCA320C90175009FB3D4 /* Bet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005FBCA220C90175009FB3D4 /* Bet.swift */; };
+		005FBCA520C90547009FB3D4 /* BetDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005FBCA420C90547009FB3D4 /* BetDetail.swift */; };
+		00E8D94B20CB5CD20061C7E4 /* TeamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E8D94A20CB5CD20061C7E4 /* TeamsViewController.swift */; };
+		00E8D94D20CB5CE90061C7E4 /* BetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E8D94C20CB5CE90061C7E4 /* BetsViewController.swift */; };
+		00E8D94F20CB5D180061C7E4 /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E8D94E20CB5D180061C7E4 /* PlayersViewController.swift */; };
+		00E8D95120CB5D410061C7E4 /* PlayerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E8D95020CB5D400061C7E4 /* PlayerDetailViewController.swift */; };
+		00E8D95320CB5D510061C7E4 /* BetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E8D95220CB5D510061C7E4 /* BetDetailViewController.swift */; };
+		00E8D95620CB62180061C7E4 /* TeamManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E8D95520CB62180061C7E4 /* TeamManager.swift */; };
+		00E8D95820CB623F0061C7E4 /* Delegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E8D95720CB623F0061C7E4 /* Delegates.swift */; };
 		8436E69520C8AB95002E95C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436E69420C8AB95002E95C0 /* AppDelegate.swift */; };
-		8436E69720C8AB95002E95C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436E69620C8AB95002E95C0 /* ViewController.swift */; };
+		8436E69720C8AB95002E95C0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436E69620C8AB95002E95C0 /* LoginViewController.swift */; };
 		8436E69A20C8AB95002E95C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8436E69820C8AB95002E95C0 /* Main.storyboard */; };
 		8436E69C20C8AB98002E95C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8436E69B20C8AB98002E95C0 /* Assets.xcassets */; };
 		8436E69F20C8AB98002E95C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8436E69D20C8AB98002E95C0 /* LaunchScreen.storyboard */; };
-		8436E6AA20C8AB98002E95C0 /* MiPollappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436E6A920C8AB98002E95C0 /* MiPollappTests.swift */; };
-		8436E6B520C8AB99002E95C0 /* MiPollappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436E6B420C8AB99002E95C0 /* MiPollappUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +44,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		005FBC9C20C8F6A0009FB3D4 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		005FBC9E20C90153009FB3D4 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		005FBCA020C90161009FB3D4 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		005FBCA220C90175009FB3D4 /* Bet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bet.swift; sourceTree = "<group>"; };
+		005FBCA420C90547009FB3D4 /* BetDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetDetail.swift; sourceTree = "<group>"; };
+		00E8D94A20CB5CD20061C7E4 /* TeamsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsViewController.swift; sourceTree = "<group>"; };
+		00E8D94C20CB5CE90061C7E4 /* BetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetsViewController.swift; sourceTree = "<group>"; };
+		00E8D94E20CB5D180061C7E4 /* PlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
+		00E8D95020CB5D400061C7E4 /* PlayerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailViewController.swift; sourceTree = "<group>"; };
+		00E8D95220CB5D510061C7E4 /* BetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetDetailViewController.swift; sourceTree = "<group>"; };
+		00E8D95520CB62180061C7E4 /* TeamManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamManager.swift; sourceTree = "<group>"; };
+		00E8D95720CB623F0061C7E4 /* Delegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegates.swift; sourceTree = "<group>"; };
 		8436E69120C8AB95002E95C0 /* MiPollapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiPollapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8436E69420C8AB95002E95C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8436E69620C8AB95002E95C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8436E69620C8AB95002E95C0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		8436E69920C8AB95002E95C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8436E69B20C8AB98002E95C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8436E69E20C8AB98002E95C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8436E6A020C8AB98002E95C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8436E6A520C8AB98002E95C0 /* MiPollappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiPollappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8436E6A920C8AB98002E95C0 /* MiPollappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiPollappTests.swift; sourceTree = "<group>"; };
-		8436E6AB20C8AB98002E95C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8436E6B020C8AB98002E95C0 /* MiPollappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiPollappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8436E6B420C8AB99002E95C0 /* MiPollappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiPollappUITests.swift; sourceTree = "<group>"; };
-		8436E6B620C8AB99002E95C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,12 +92,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		005FBC9920C8F565009FB3D4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8436E69620C8AB95002E95C0 /* LoginViewController.swift */,
+				005FBC9C20C8F6A0009FB3D4 /* TabBarController.swift */,
+				00E8D94A20CB5CD20061C7E4 /* TeamsViewController.swift */,
+				00E8D94C20CB5CE90061C7E4 /* BetsViewController.swift */,
+				00E8D94E20CB5D180061C7E4 /* PlayersViewController.swift */,
+				00E8D95020CB5D400061C7E4 /* PlayerDetailViewController.swift */,
+				00E8D95220CB5D510061C7E4 /* BetDetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		005FBC9A20C8F56F009FB3D4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				005FBC9E20C90153009FB3D4 /* Player.swift */,
+				005FBCA020C90161009FB3D4 /* Team.swift */,
+				005FBCA220C90175009FB3D4 /* Bet.swift */,
+				005FBCA420C90547009FB3D4 /* BetDetail.swift */,
+				00E8D95720CB623F0061C7E4 /* Delegates.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		005FBC9B20C8F576009FB3D4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		00E8D95420CB61FF0061C7E4 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				00E8D95520CB62180061C7E4 /* TeamManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		8436E68820C8AB95002E95C0 = {
 			isa = PBXGroup;
 			children = (
 				8436E69320C8AB95002E95C0 /* MiPollapp */,
-				8436E6A820C8AB98002E95C0 /* MiPollappTests */,
-				8436E6B320C8AB99002E95C0 /* MiPollappUITests */,
 				8436E69220C8AB95002E95C0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,32 +154,17 @@
 		8436E69320C8AB95002E95C0 /* MiPollapp */ = {
 			isa = PBXGroup;
 			children = (
+				00E8D95420CB61FF0061C7E4 /* Managers */,
+				005FBC9B20C8F576009FB3D4 /* Views */,
+				005FBC9A20C8F56F009FB3D4 /* Models */,
+				005FBC9920C8F565009FB3D4 /* Controllers */,
 				8436E69420C8AB95002E95C0 /* AppDelegate.swift */,
-				8436E69620C8AB95002E95C0 /* ViewController.swift */,
 				8436E69820C8AB95002E95C0 /* Main.storyboard */,
 				8436E69B20C8AB98002E95C0 /* Assets.xcassets */,
 				8436E69D20C8AB98002E95C0 /* LaunchScreen.storyboard */,
 				8436E6A020C8AB98002E95C0 /* Info.plist */,
 			);
 			path = MiPollapp;
-			sourceTree = "<group>";
-		};
-		8436E6A820C8AB98002E95C0 /* MiPollappTests */ = {
-			isa = PBXGroup;
-			children = (
-				8436E6A920C8AB98002E95C0 /* MiPollappTests.swift */,
-				8436E6AB20C8AB98002E95C0 /* Info.plist */,
-			);
-			path = MiPollappTests;
-			sourceTree = "<group>";
-		};
-		8436E6B320C8AB99002E95C0 /* MiPollappUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8436E6B420C8AB99002E95C0 /* MiPollappUITests.swift */,
-				8436E6B620C8AB99002E95C0 /* Info.plist */,
-			);
-			path = MiPollappUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +298,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8436E69720C8AB95002E95C0 /* ViewController.swift in Sources */,
+				00E8D95620CB62180061C7E4 /* TeamManager.swift in Sources */,
+				005FBCA520C90547009FB3D4 /* BetDetail.swift in Sources */,
+				00E8D95820CB623F0061C7E4 /* Delegates.swift in Sources */,
+				005FBC9F20C90153009FB3D4 /* Player.swift in Sources */,
+				00E8D94D20CB5CE90061C7E4 /* BetsViewController.swift in Sources */,
+				00E8D95120CB5D410061C7E4 /* PlayerDetailViewController.swift in Sources */,
+				00E8D94F20CB5D180061C7E4 /* PlayersViewController.swift in Sources */,
+				005FBCA320C90175009FB3D4 /* Bet.swift in Sources */,
+				005FBC9D20C8F6A0009FB3D4 /* TabBarController.swift in Sources */,
+				8436E69720C8AB95002E95C0 /* LoginViewController.swift in Sources */,
+				00E8D95320CB5D510061C7E4 /* BetDetailViewController.swift in Sources */,
+				00E8D94B20CB5CD20061C7E4 /* TeamsViewController.swift in Sources */,
+				005FBCA120C90161009FB3D4 /* Team.swift in Sources */,
 				8436E69520C8AB95002E95C0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +319,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8436E6AA20C8AB98002E95C0 /* MiPollappTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +326,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8436E6B520C8AB99002E95C0 /* MiPollappUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
