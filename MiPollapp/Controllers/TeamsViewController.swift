@@ -9,9 +9,9 @@
 import UIKit
 
 class TeamsViewController: UITableViewController, TeamsDelegate {
-    var teamList: [Team] = []
+    var teamList: [Teams] = []
     
-    func onLoadedTeams(teams: [Team]) {
+    func onLoadedTeams(teams: [Teams]) {
         self.teamList = teams
         self.tableView.reloadData()
     }
@@ -34,7 +34,7 @@ class TeamsViewController: UITableViewController, TeamsDelegate {
         let cell = self.tableView.dequeueReusableCell(withIdentifier: "TeamCell", for: indexPath)
         
         cell.textLabel?.text = teamList[indexPath.row].name
-        cell.imageView?.setImageFromURl(stringImageUrl: teamList[indexPath.row].flag)
+        cell.imageView?.setImageFromURl(stringImageUrl: teamList[indexPath.row].crestUrl!)
         
         return cell
     }

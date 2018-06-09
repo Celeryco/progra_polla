@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 protocol TeamsDelegate {
-    func onLoadedTeams(teams: [Team])
+    func onLoadedTeams(teams: [Teams])
 }
 
 // Codigo sacado de https://stackoverflow.com/questions/29472149/how-to-display-an-image-using-url
