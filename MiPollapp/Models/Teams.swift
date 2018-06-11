@@ -25,4 +25,10 @@ struct Teams : Codable {
         crestUrl = try values.decodeIfPresent(String.self, forKey: .crestUrl)
     }
     
+    init(code: String, name: String, crestUrl: String) {
+        self.code = code
+        self.name = name
+        self.crestUrl = crestUrl
+    }
+    
 }

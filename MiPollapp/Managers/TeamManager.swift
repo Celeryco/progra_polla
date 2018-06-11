@@ -20,11 +20,11 @@ class TeamManager {
                     
                     let lista = try! JSONDecoder().decode(TeamBase.self, from: data!)
                     
-                    print("------------------")
                     for team in lista.teams!{
-                        print(team.name!)
+                        self.teamList.append(Teams(code: team.code!, name: team.name!, crestUrl: team.crestUrl!))
                     }
-                    print("------------------")
+                    
+                    self.teamList = self.teamList.sorted(by: {$0.name! < $1.name!})
                     
                     DispatchQueue.main.async {
                         delegado.onLoadedTeams(teams: self.teamList)

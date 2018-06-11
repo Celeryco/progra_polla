@@ -9,6 +9,7 @@
 import UIKit
 
 class TeamsViewController: UITableViewController, TeamsDelegate {
+    
     var teamList: [Teams] = []
     
     func onLoadedTeams(teams: [Teams]) {
@@ -31,19 +32,23 @@ class TeamsViewController: UITableViewController, TeamsDelegate {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = self.tableView.dequeueReusableCell(withIdentifier: "TeamCell", for: indexPath)
         
-        cell.textLabel?.text = teamList[indexPath.row].name
-        cell.imageView?.setImageFromURl(stringImageUrl: teamList[indexPath.row].crestUrl!)
+        let cell = self.tableView.dequeueReusableCell(withIdentifier: "TeamCell", for: indexPath) as! TeamsTableViewCell
+        cell.nameLabel?.text = teamList[indexPath.row].name
         
+        cell.rankingLabel?.text = "Ranking FIFA"
+        
+        cell.pointsLabel?.text = "10"
+        
+//        cell.flagImage?.setImageFromURl(stringImageUrl: teamList[indexPath.row].crestUrl!)
+//    
         return cell
     }
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print(teamList[indexPath.row].name)
+        print(teamList[indexPath.row].name!)
     }
-    
-    
+
     /*
     // MARK: - Navigation
 

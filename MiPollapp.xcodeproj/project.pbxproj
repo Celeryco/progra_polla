@@ -13,6 +13,7 @@
 		005FBCA320C90175009FB3D4 /* Bet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005FBCA220C90175009FB3D4 /* Bet.swift */; };
 		005FBCA520C90547009FB3D4 /* BetDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005FBCA420C90547009FB3D4 /* BetDetail.swift */; };
 		00A6108420CBA594000E181D /* Teams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6108320CBA594000E181D /* Teams.swift */; };
+		00DB808120CDE71C001F8D42 /* TeamsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DB808020CDE71C001F8D42 /* TeamsTableViewCell.swift */; };
 		00E8D94B20CB5CD20061C7E4 /* TeamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E8D94A20CB5CD20061C7E4 /* TeamsViewController.swift */; };
 		00E8D94D20CB5CE90061C7E4 /* BetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E8D94C20CB5CE90061C7E4 /* BetsViewController.swift */; };
 		00E8D94F20CB5D180061C7E4 /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E8D94E20CB5D180061C7E4 /* PlayersViewController.swift */; };
@@ -51,6 +52,7 @@
 		005FBCA220C90175009FB3D4 /* Bet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bet.swift; sourceTree = "<group>"; };
 		005FBCA420C90547009FB3D4 /* BetDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetDetail.swift; sourceTree = "<group>"; };
 		00A6108320CBA594000E181D /* Teams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teams.swift; sourceTree = "<group>"; };
+		00DB808020CDE71C001F8D42 /* TeamsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsTableViewCell.swift; sourceTree = "<group>"; };
 		00E8D94A20CB5CD20061C7E4 /* TeamsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsViewController.swift; sourceTree = "<group>"; };
 		00E8D94C20CB5CE90061C7E4 /* BetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetsViewController.swift; sourceTree = "<group>"; };
 		00E8D94E20CB5D180061C7E4 /* PlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 		005FBC9B20C8F576009FB3D4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				00DB808020CDE71C001F8D42 /* TeamsTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00DB808120CDE71C001F8D42 /* TeamsTableViewCell.swift in Sources */,
 				00E8D95620CB62180061C7E4 /* TeamManager.swift in Sources */,
 				005FBCA520C90547009FB3D4 /* BetDetail.swift in Sources */,
 				00E8D95820CB623F0061C7E4 /* Delegates.swift in Sources */,
