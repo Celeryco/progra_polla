@@ -1,34 +1,26 @@
 //
-//  TeamsTableViewCell.swift
+//  PlayersTableViewCell.swift
 //  MiPollapp
 //
-//  Created by Eros Campos on 10/06/18.
+//  Created by Eros Campos on 13/06/18.
 //  Copyright © 2018 ulima. All rights reserved.
 //
 
 import UIKit
-import WebKit
 
-class TeamsTableViewCell: UITableViewCell {
+class PlayersTableViewCell: UITableViewCell {
 
-    @IBOutlet var rankingLabel: UILabel!
+    @IBOutlet var playerName: UILabel!
     
-    @IBOutlet var pointsLabel: UILabel!
-    
-    @IBOutlet var webImage: WKWebView!
-    
-    @IBOutlet var nameLabel: UILabel!
-        
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
+
         // Configure the view for the selected state
-        
     }
 
 }

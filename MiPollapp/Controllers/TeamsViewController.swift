@@ -9,10 +9,10 @@
 import UIKit
 
 class TeamsViewController: UITableViewController, TeamsDelegate {
+
+    var teamList: [Team] = []
     
-    var teamList: [Teams] = []
-    
-    func onLoadedTeams(teams: [Teams]) {
+    func onLoadedTeams(teams: [Team]) {
         self.teamList = teams
         self.tableView.reloadData()
     }
@@ -34,19 +34,30 @@ class TeamsViewController: UITableViewController, TeamsDelegate {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = self.tableView.dequeueReusableCell(withIdentifier: "TeamCell", for: indexPath) as! TeamsTableViewCell
+                
         cell.nameLabel?.text = teamList[indexPath.row].name
+        
+        let url = URL(string: teamList[indexPath.row].flag!)
+        
+        cell.webImage?.load(URLRequest(url: url!))
         
         cell.rankingLabel?.text = "Ranking FIFA"
         
         cell.pointsLabel?.text = "10"
         
-//        cell.flagImage?.setImageFromURl(stringImageUrl: teamList[indexPath.row].crestUrl!)
-//    
         return cell
     }
-
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 133
+    }
+    
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print(teamList[indexPath.row].name!)
+        let vc = storyboard?.instantiateViewController(withIdentifier: "PlayersViewController") as? PlayersViewController
+        
+        vc?.player_url = (teamList[indexPath.row].team_link?.players?.href!)!
+        
+        self.navigationController?.pushViewController(vc!, animated: true)
     }
 
     /*

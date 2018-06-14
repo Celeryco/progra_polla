@@ -10,7 +10,7 @@ import Foundation
 class TeamManager {
     var delegate: TeamsDelegate?
     
-    var teamList = [Teams]()
+    var teamList = [Team]()
 
     func getTeams(){
         if let delegado = delegate{
@@ -20,8 +20,8 @@ class TeamManager {
                     
                     let lista = try! JSONDecoder().decode(TeamBase.self, from: data!)
                     
-                    for team in lista.teams!{
-                        self.teamList.append(Teams(code: team.code!, name: team.name!, crestUrl: team.crestUrl!))
+                    for team in lista.teams{
+                        self.teamList.append(Team(name: team.name!, flag: team.flag!, players_link: team.team_link!))
                     }
                     
                     self.teamList = self.teamList.sorted(by: {$0.name! < $1.name!})

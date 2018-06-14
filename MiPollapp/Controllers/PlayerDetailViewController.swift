@@ -10,9 +10,22 @@ import UIKit
 
 class PlayerDetailViewController: UIViewController {
 
+    @IBOutlet var positionLabel: UILabel!
+    
+    @IBOutlet var jerseyNumberLabel: UILabel!
+    
+    @IBOutlet var birthdayLabel: UILabel!
+    
+    var position:String = ""
+    var birthday:String = ""
+    var number:String = ""
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        positionLabel.text = position
+        birthdayLabel.text = birthday
+        jerseyNumberLabel.text = number
         // Do any additional setup after loading the view.
     }
 
